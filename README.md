@@ -2,7 +2,10 @@
 
 Patch to cheat at AstroMenace.
 
-## Log
+## Using the patch
+
+
+## Creating the patch
 
 Obtained code at 2014-08-24:
 
