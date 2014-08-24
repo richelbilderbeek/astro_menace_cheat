@@ -1,0 +1,787 @@
+diff -crB AstroMenace/AstroMenaceSource/Menu/Menu_Workshop_Shipyard.cpp AstroMenaceCheat/AstroMenaceSource/Menu/Menu_Workshop_Shipyard.cpp
+*** AstroMenace/AstroMenaceSource/Menu/Menu_Workshop_Shipyard.cpp	2014-08-24 15:21:28.218120917 +0200
+--- AstroMenaceCheat/AstroMenaceSource/Menu/Menu_Workshop_Shipyard.cpp	2014-08-22 13:48:59.947550000 +0200
+***************
+*** 139,166 ****
+  {
+  	switch (Num)
+  	{
+! 		case 1: return 1100;
+! 		case 2: return 900;
+! 		case 3: return 1500;
+! 		case 4: return 1300;
+! 		case 5: return 1350;
+! 		case 6: return 2400;
+! 		case 7: return 3000;
+! 		case 8: return 3500;
+! 		case 9: return 4000;
+! 		case 10: return 6000;
+! 		case 11: return 4500;
+! 		case 12: return 5000;
+! 		case 13: return 9000;
+! 		case 14: return 7500;
+! 		case 15: return 7000;
+! 		case 16: return 9000;
+! 		case 17: return 10000;
+! 		case 18: return 12000;
+! 		case 19: return 5000;
+! 		case 20: return 9000;
+! 		case 21: return 10000;
+! 		case 22: return 8000;
+  
+  		default: fprintf(stderr, "Error in GetWorkshopShipCost function call, wrong Num.\n"); break;
+  	}
+--- 139,166 ----
+  {
+  	switch (Num)
+  	{
+! 		case 1: return 1;
+! 		case 2: return 1;
+! 		case 3: return 1;
+! 		case 4: return 1;
+! 		case 5: return 1;
+! 		case 6: return 1;
+! 		case 7: return 1;
+! 		case 8: return 1;
+! 		case 9: return 1;
+! 		case 10: return 1;
+! 		case 11: return 1;
+! 		case 12: return 1;
+! 		case 13: return 1;
+! 		case 14: return 1;
+! 		case 15: return 1;
+! 		case 16: return 1;
+! 		case 17: return 1;
+! 		case 18: return 1;
+! 		case 19: return 1;
+! 		case 20: return 1;
+! 		case 21: return 1;
+! 		case 22: return 1;
+  
+  		default: fprintf(stderr, "Error in GetWorkshopShipCost function call, wrong Num.\n"); break;
+  	}
+diff -crB AstroMenace/AstroMenaceSource/Menu/Menu_Workshop_Weaponry.cpp AstroMenaceCheat/AstroMenaceSource/Menu/Menu_Workshop_Weaponry.cpp
+*** AstroMenace/AstroMenaceSource/Menu/Menu_Workshop_Weaponry.cpp	2014-08-24 15:21:28.222121020 +0200
+--- AstroMenaceCheat/AstroMenaceSource/Menu/Menu_Workshop_Weaponry.cpp	2014-08-22 13:51:05.989661000 +0200
+***************
+*** 119,150 ****
+  {
+  	switch (Num)
+  	{
+! 		case 1:		return 150;
+! 		case 2:		return 300;
+! 		case 3:		return 1000;
+! 		case 4:		return 1500;
+  
+! 		case 5:		return 250;
+! 		case 6:		return 1000;
+! 		case 7:		return 1900;
+  
+! 		case 8:		return 1700;
+! 		case 9:		return 2500;
+! 		case 10:	return 4500;
+  
+! 		case 11:	return 2500;
+! 		case 12:	return 5000;
+  
+! 		case 13:	return 6000;
+  
+! 		case 14:	return 8000;
+  
+! 		case 15:	return 10000;
+  
+! 		case 16:	return 1500;
+! 		case 17:	return 4000;
+! 		case 18:	return 5000;
+! 		case 19:	return 8000;
+  
+  		default:	return 0;
+  	}
+--- 119,150 ----
+  {
+  	switch (Num)
+  	{
+! 		case 1:		return 1;
+! 		case 2:		return 1;
+! 		case 3:		return 1;
+! 		case 4:		return 1;
+  
+! 		case 5:		return 1;
+! 		case 6:		return 1;
+! 		case 7:		return 1;
+  
+! 		case 8:		return 1;
+! 		case 9:		return 1;
+! 		case 10:	return 1;
+  
+! 		case 11:	return 1;
+! 		case 12:	return 1;
+  
+! 		case 13:	return 1;
+  
+! 		case 14:	return 1;
+  
+! 		case 15:	return 1;
+  
+! 		case 16:	return 1;
+! 		case 17:	return 1;
+! 		case 18:	return 1;
+! 		case 19:	return 1;
+  
+  		default:	return 0;
+  	}
+diff -crB AstroMenace/AstroMenaceSource/Menu/Menu_Workshop_Workshop.cpp AstroMenaceCheat/AstroMenaceSource/Menu/Menu_Workshop_Workshop.cpp
+*** AstroMenace/AstroMenaceSource/Menu/Menu_Workshop_Workshop.cpp	2014-08-24 15:21:28.222121020 +0200
+--- AstroMenaceCheat/AstroMenaceSource/Menu/Menu_Workshop_Workshop.cpp	2014-08-22 13:51:58.254537000 +0200
+***************
+*** 177,206 ****
+  {
+  	switch (Num)
+  	{
+! 		case 1:		return 200;
+! 		case 2:		return 1500;
+! 		case 3:		return 3000;
+! 		case 4:		return 6000;
+  
+! 		case 5:		return 250;
+! 		case 6:		return 2000;
+! 		case 7:		return 7000;
+! 		case 8:		return 15000;
+  
+! 		case 9:		return 100;
+! 		case 10:	return 1000;
+! 		case 11:	return 3000;
+! 		case 12:	return 6000;
+  
+! 		case 13:	return 150;
+! 		case 14:	return 1000;
+! 		case 15:	return 3000;
+! 		case 16:	return 7000;
+  
+! 		case 17:	return 2500;
+! 		case 18:	return 6000;
+! 		case 19:	return 10000;
+! 		case 20:	return 15000;
+  
+  		default: fprintf(stderr, "Error in GetSystemCost function call, wrong Num.\n"); break;
+  	}
+--- 177,206 ----
+  {
+  	switch (Num)
+  	{
+! 		case 1:		return 1;
+! 		case 2:		return 1;
+! 		case 3:		return 1;
+! 		case 4:		return 1;
+  
+! 		case 5:		return 1;
+! 		case 6:		return 1;
+! 		case 7:		return 1;
+! 		case 8:		return 1;
+  
+! 		case 9:		return 1;
+! 		case 10:	return 1;
+! 		case 11:	return 1;
+! 		case 12:	return 1;
+  
+! 		case 13:	return 1;
+! 		case 14:	return 1;
+! 		case 15:	return 1;
+! 		case 16:	return 1;
+  
+! 		case 17:	return 1;
+! 		case 18:	return 1;
+! 		case 19:	return 1;
+! 		case 20:	return 1;
+  
+  		default: fprintf(stderr, "Error in GetSystemCost function call, wrong Num.\n"); break;
+  	}
+diff -crB AstroMenace/AstroMenaceSource/Object3D/SpaceShip/EarthSpaceFighter/EarthSpaceFighter.cpp AstroMenaceCheat/AstroMenaceSource/Object3D/SpaceShip/EarthSpaceFighter/EarthSpaceFighter.cpp
+*** AstroMenace/AstroMenaceSource/Object3D/SpaceShip/EarthSpaceFighter/EarthSpaceFighter.cpp	2014-08-24 15:21:31.602208518 +0200
+--- AstroMenaceCheat/AstroMenaceSource/Object3D/SpaceShip/EarthSpaceFighter/EarthSpaceFighter.cpp	2014-08-24 14:52:43.639954000 +0200
+***************
+*** 354,368 ****
+  	switch (SpaceShipNum)
+  	{
+  		case 1:
+! 			WeaponType[0] = 1;
+  			WeaponLocation[0] = VECTOR3D(4.4f, -0.1f, -6.0f);
+! 			WeaponType[1] = 1;
+  			WeaponLocation[1] = VECTOR3D(-4.4f, -0.1f, -6.0f);
+! 			WeaponType[2] = 1;
+  			WeaponLocation[2] = VECTOR3D(1.9f, -1.25f, 6.5f);
+! 			WeaponType[3] = 1;
+  			WeaponLocation[3] = VECTOR3D(-1.9f, -1.25f, 6.5f);
+! 			WeaponType[4] = 4;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -1.20f, 1.0f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.0f, -1.2f, -4.7f);
+--- 354,368 ----
+  	switch (SpaceShipNum)
+  	{
+  		case 1:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(4.4f, -0.1f, -6.0f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-4.4f, -0.1f, -6.0f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(1.9f, -1.25f, 6.5f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(-1.9f, -1.25f, 6.5f);
+! 			WeaponType[4] = 5;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -1.20f, 1.0f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.0f, -1.2f, -4.7f);
+***************
+*** 372,384 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, -0.7f, 3.7f);
+  			break;
+  		case 2:
+! 			WeaponType[0] = 1;
+  			WeaponLocation[0] = VECTOR3D(3.45f, 1.03f, -8.5f);
+! 			WeaponType[1] = 1;
+  			WeaponLocation[1] = VECTOR3D(-3.45f, 1.03f, -8.5f);
+! 			WeaponType[2] = 1;
+  			WeaponLocation[2] = VECTOR3D(1.7f, -1.03f, 3.9f);
+! 			WeaponType[3] = 1;
+  			WeaponLocation[3] = VECTOR3D(-1.7f, -1.03f, 3.9f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.9f, -1.1f, -8.9f);
+--- 372,384 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, -0.7f, 3.7f);
+  			break;
+  		case 2:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(3.45f, 1.03f, -8.5f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-3.45f, 1.03f, -8.5f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(1.7f, -1.03f, 3.9f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(-1.7f, -1.03f, 3.9f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.9f, -1.1f, -8.9f);
+***************
+*** 392,400 ****
+  		case 3:
+  			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -1.75f, 3.5f);
+! 			WeaponType[1] = 1;
+  			WeaponLocation[1] = VECTOR3D(7.15f, -0.38f, -4.4f);
+! 			WeaponType[2] = 1;
+  			WeaponLocation[2] = VECTOR3D(-7.15f, -0.38f, -4.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.4f, -3.0f, -9.7f);
+--- 392,400 ----
+  		case 3:
+  			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -1.75f, 3.5f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(7.15f, -0.38f, -4.4f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(-7.15f, -0.38f, -4.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.4f, -3.0f, -9.7f);
+***************
+*** 406,420 ****
+  			EngineRightLocation[0] = VECTOR3D(-0.8f, -1.6f, 8.7f);
+  			break;
+  		case 4:
+! 			WeaponType[0] = 1;
+  			WeaponLocation[0] = VECTOR3D(4.10f, 1.4f, -2.5f);
+! 			WeaponType[1] = 1;
+  			WeaponLocation[1] = VECTOR3D(-4.10f, 1.4f, -2.5f);
+! 			WeaponType[2] = 1;
+  			WeaponLocation[2] = VECTOR3D(5.10f, -1.2f, -2.5f);
+! 			WeaponType[3] = 1;
+  			WeaponLocation[3] = VECTOR3D(-5.10f, -1.2f, -2.5f);
+! 			WeaponType[4] = 4;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -1.5f, 5.3f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.8f, 0.1f, -9.6f);
+--- 406,420 ----
+  			EngineRightLocation[0] = VECTOR3D(-0.8f, -1.6f, 8.7f);
+  			break;
+  		case 4:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(4.10f, 1.4f, -2.5f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-4.10f, 1.4f, -2.5f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(5.10f, -1.2f, -2.5f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(-5.10f, -1.2f, -2.5f);
+! 			WeaponType[4] = 5;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -1.5f, 5.3f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.8f, 0.1f, -9.6f);
+***************
+*** 424,432 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.6f, -0.9f, 5.7f);
+  			break;
+  		case 5:
+! 			WeaponType[0] = 2;
+  			WeaponLocation[0] = VECTOR3D(4.0f, -0.5f, 1.0f);
+! 			WeaponType[1] = 2;
+  			WeaponLocation[1] = VECTOR3D(-4.0f, -0.5f, 1.0f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(6.72f, -0.28f, -7.98f);
+--- 424,432 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.6f, -0.9f, 5.7f);
+  			break;
+  		case 5:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(4.0f, -0.5f, 1.0f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-4.0f, -0.5f, 1.0f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(6.72f, -0.28f, -7.98f);
+***************
+*** 438,452 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.4f, 0.0f, 3.92f);
+  			break;
+  		case 6:
+! 			WeaponType[0] = 2;
+  			WeaponLocation[0] = VECTOR3D(2.80f, 0.25f, -7.0f);
+! 			WeaponType[1] = 2;
+  			WeaponLocation[1] = VECTOR3D(-2.80f, 0.25f, -7.0f);
+! 			WeaponType[2] = 1;
+  			WeaponLocation[2] = VECTOR3D(5.20f, 0.6f, -6.0f);
+! 			WeaponType[3] = 1;
+  			WeaponLocation[3] = VECTOR3D(-5.20f, 0.6f, -6.0f);
+! 			WeaponType[4] = 4;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -1.3f, 2.6f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.6f, 0.45f, -9.9f);
+--- 438,452 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.4f, 0.0f, 3.92f);
+  			break;
+  		case 6:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(2.80f, 0.25f, -7.0f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-2.80f, 0.25f, -7.0f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(5.20f, 0.6f, -6.0f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(-5.20f, 0.6f, -6.0f);
+! 			WeaponType[4] = 5;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -1.3f, 2.6f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.6f, 0.45f, -9.9f);
+***************
+*** 458,470 ****
+  		case 7:
+  			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -0.2f, 0.0f);
+! 			WeaponType[1] = 1;
+  			WeaponLocation[1] = VECTOR3D(4.3f, -1.25f, -1.4f);
+! 			WeaponType[2] = 1;
+  			WeaponLocation[2] = VECTOR3D(-4.3f, -1.25f, -1.4f);
+! 			WeaponType[3] = 1;
+  			WeaponLocation[3] = VECTOR3D(8.2f, -0.75f, -3.6f);
+! 			WeaponType[4] = 1;
+  			WeaponLocation[4] = VECTOR3D(-8.2f, -0.75f, -3.6f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.75f, -0.5f, -10.9f);
+--- 458,470 ----
+  		case 7:
+  			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -0.2f, 0.0f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(4.3f, -1.25f, -1.4f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(-4.3f, -1.25f, -1.4f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(8.2f, -0.75f, -3.6f);
+! 			WeaponType[4] = 5;
+  			WeaponLocation[4] = VECTOR3D(-8.2f, -0.75f, -3.6f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.75f, -0.5f, -10.9f);
+***************
+*** 475,483 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.4f, 0.1f, 1.1f);
+  			break;
+  		case 8:
+! 			WeaponType[0] = 1;
+  			WeaponLocation[0] = VECTOR3D(1.0f, -0.3f, 0.4f);
+! 			WeaponType[1] = 1;
+  			WeaponLocation[1] = VECTOR3D(-1.0f, -0.3f, 0.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.5f, 1.4f, -7.4f);
+--- 475,483 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.4f, 0.1f, 1.1f);
+  			break;
+  		case 8:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(1.0f, -0.3f, 0.4f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-1.0f, -0.3f, 0.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.5f, 1.4f, -7.4f);
+***************
+*** 489,497 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, 0.0f, 2.4f);
+  			break;
+  		case 9:
+! 			WeaponType[0] = 2;
+  			WeaponLocation[0] = VECTOR3D(1.2f, 0.2f, 1.6f);
+! 			WeaponType[1] = 2;
+  			WeaponLocation[1] = VECTOR3D(-1.2f, 0.2f, 1.6f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.30f, -1.20f, -0.7f);
+--- 489,497 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, 0.0f, 2.4f);
+  			break;
+  		case 9:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(1.2f, 0.2f, 1.6f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-1.2f, 0.2f, 1.6f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.30f, -1.20f, -0.7f);
+***************
+*** 501,515 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, 0.2f, 2.2f);
+  			break;
+  		case 10:
+! 			WeaponType[0] = 2;
+  			WeaponLocation[0] = VECTOR3D(5.05f, -1.8f, -1.7f);
+! 			WeaponType[1] = 2;
+  			WeaponLocation[1] = VECTOR3D(-5.05f, -1.8f, -1.7f);
+! 			WeaponType[2] = 2;
+  			WeaponLocation[2] = VECTOR3D(2.55f, -0.7f, -0.7f);
+! 			WeaponType[3] = 2;
+  			WeaponLocation[3] = VECTOR3D(-2.55f, -0.7f, -0.7f);
+! 			WeaponType[4] = 4;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -0.9f, 6.1f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.8f, 0.55f, -9.9f);
+--- 501,515 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, 0.2f, 2.2f);
+  			break;
+  		case 10:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(5.05f, -1.8f, -1.7f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-5.05f, -1.8f, -1.7f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(2.55f, -0.7f, -0.7f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(-2.55f, -0.7f, -0.7f);
+! 			WeaponType[4] = 5;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -0.9f, 6.1f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.8f, 0.55f, -9.9f);
+***************
+*** 519,529 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.6f, -0.4f, 5.3f);
+  			break;
+  		case 11:
+! 			WeaponType[0] = 2;
+  			WeaponLocation[0] = VECTOR3D(2.0f, -0.55f, -2.2f);
+! 			WeaponType[1] = 2;
+  			WeaponLocation[1] = VECTOR3D(-2.0f, -0.55f, -2.2f);
+! 			WeaponType[2] = 1;
+  			WeaponLocation[2] = VECTOR3D(0.0f, -0.7f, 2.2f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.35f, -0.35f, -4.4f);
+--- 519,529 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.6f, -0.4f, 5.3f);
+  			break;
+  		case 11:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(2.0f, -0.55f, -2.2f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-2.0f, -0.55f, -2.2f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(0.0f, -0.7f, 2.2f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.35f, -0.35f, -4.4f);
+***************
+*** 533,543 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.5f, -0.6f, 2.0f);
+  			break;
+  		case 12:
+! 			WeaponType[0] = 2;
+  			WeaponLocation[0] = VECTOR3D(2.25f, -0.85f, 3.3f);
+! 			WeaponType[1] = 2;
+  			WeaponLocation[1] = VECTOR3D(-2.25f, -0.85f, 3.3f);
+! 			WeaponType[2] = 4;
+  			WeaponLocation[2] = VECTOR3D(0.0f, -0.35f, 2.8f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.8f, -1.2f, -2.8f);
+--- 533,543 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.5f, -0.6f, 2.0f);
+  			break;
+  		case 12:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(2.25f, -0.85f, 3.3f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-2.25f, -0.85f, 3.3f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(0.0f, -0.35f, 2.8f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.8f, -1.2f, -2.8f);
+***************
+*** 549,561 ****
+  		case 13:
+  			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -2.15f, -4.4f);
+! 			WeaponType[1] = 4;
+  			WeaponLocation[1] = VECTOR3D(7.2f, 1.85f, -5.6f);
+! 			WeaponType[2] = 4;
+  			WeaponLocation[2] = VECTOR3D(-7.2f, 1.85f, -5.6f);
+! 			WeaponType[3] = 1;
+  			WeaponLocation[3] = VECTOR3D(3.05f, -1.95f, -0.4f);
+! 			WeaponType[4] = 1;
+  			WeaponLocation[4] = VECTOR3D(-3.05f, -1.95f, -0.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(2.2f, -1.35f, -9.8f);
+--- 549,561 ----
+  		case 13:
+  			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -2.15f, -4.4f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(7.2f, 1.85f, -5.6f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(-7.2f, 1.85f, -5.6f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(3.05f, -1.95f, -0.4f);
+! 			WeaponType[4] = 5;
+  			WeaponLocation[4] = VECTOR3D(-3.05f, -1.95f, -0.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(2.2f, -1.35f, -9.8f);
+***************
+*** 567,581 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.4f, -0.1f, 0.5f);
+  			break;
+  		case 14:
+! 			WeaponType[0] = 2;
+  			WeaponLocation[0] = VECTOR3D(1.70f, -1.1f, 5.5f);
+! 			WeaponType[1] = 2;
+  			WeaponLocation[1] = VECTOR3D(-1.70f, -1.1f, 5.5f);
+! 			WeaponType[2] = 2;
+  			WeaponLocation[2] = VECTOR3D(4.1f, 0.2f, -6.3f);
+! 			WeaponType[3] = 2;
+  			WeaponLocation[3] = VECTOR3D(-4.1f, 0.2f, -6.3f);
+! 			WeaponType[4] = 4;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -0.9f, 3.3f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.85f, 0.1f, -8.1f);
+--- 567,581 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.4f, -0.1f, 0.5f);
+  			break;
+  		case 14:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(1.70f, -1.1f, 5.5f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-1.70f, -1.1f, 5.5f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(4.1f, 0.2f, -6.3f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(-4.1f, 0.2f, -6.3f);
+! 			WeaponType[4] = 5;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -0.9f, 3.3f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.85f, 0.1f, -8.1f);
+***************
+*** 585,595 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.3f, -0.7f, 6.3f);
+  			break;
+  		case 15:
+! 			WeaponType[0] = 4;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -0.7f, 1.3f);
+! 			WeaponType[1] = 3;
+  			WeaponLocation[1] = VECTOR3D(7.1f, -0.2f, -5.8f);
+! 			WeaponType[2] = 3;
+  			WeaponLocation[2] = VECTOR3D(-7.1f, -0.2f, -5.8f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.75f, -0.5f, -7.2f);
+--- 585,595 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.3f, -0.7f, 6.3f);
+  			break;
+  		case 15:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -0.7f, 1.3f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(7.1f, -0.2f, -5.8f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(-7.1f, -0.2f, -5.8f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(4.75f, -0.5f, -7.2f);
+***************
+*** 599,609 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, -0.6f, 6.25f);
+  			break;
+  		case 16:
+! 			WeaponType[0] = 3;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -1.2f, 7.7f);
+! 			WeaponType[1] = 4;
+  			WeaponLocation[1] = VECTOR3D(2.0f, -1.05f, 0.4f);
+! 			WeaponType[2] = 4;
+  			WeaponLocation[2] = VECTOR3D(-2.0f, -1.05f, 0.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.8f, -0.75f, -11.4f);
+--- 599,609 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, -0.6f, 6.25f);
+  			break;
+  		case 16:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -1.2f, 7.7f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(2.0f, -1.05f, 0.4f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(-2.0f, -1.05f, 0.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.8f, -0.75f, -11.4f);
+***************
+*** 615,629 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.6f, -0.6f, 6.25f);
+  			break;
+  		case 17:
+! 			WeaponType[0] = 3;
+  			WeaponLocation[0] = VECTOR3D(3.10f, 0.2f, -4.6f);
+! 			WeaponType[1] = 3;
+  			WeaponLocation[1] = VECTOR3D(-3.10f, 0.2f, -4.6f);
+! 			WeaponType[2] = 2;
+  			WeaponLocation[2] = VECTOR3D(5.85f, -0.5f, -5.6f);
+! 			WeaponType[3] = 2;
+  			WeaponLocation[3] = VECTOR3D(-5.85f, -0.5f, -5.6f);
+! 			WeaponType[4] = 4;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -0.5f, -0.5f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.65f, 0.2f, -8.2f);
+--- 615,629 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.6f, -0.6f, 6.25f);
+  			break;
+  		case 17:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(3.10f, 0.2f, -4.6f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-3.10f, 0.2f, -4.6f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(5.85f, -0.5f, -5.6f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(-5.85f, -0.5f, -5.6f);
+! 			WeaponType[4] = 5;
+  			WeaponLocation[4] = VECTOR3D(0.0f, -0.5f, -0.5f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.65f, 0.2f, -8.2f);
+***************
+*** 637,645 ****
+  			WeaponLocation[0] = VECTOR3D(1.7f, -2.5f, -4.4f);
+  			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-1.7f, -2.5f, -4.4f);
+! 			WeaponType[2] = 3;
+  			WeaponLocation[2] = VECTOR3D(5.1f, -1.0f, -5.4f);
+! 			WeaponType[3] = 3;
+  			WeaponLocation[3] = VECTOR3D(-5.1f, -1.0f, -5.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(7.5f, 0.15f, -9.1f);
+--- 637,645 ----
+  			WeaponLocation[0] = VECTOR3D(1.7f, -2.5f, -4.4f);
+  			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-1.7f, -2.5f, -4.4f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(5.1f, -1.0f, -5.4f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(-5.1f, -1.0f, -5.4f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(7.5f, 0.15f, -9.1f);
+***************
+*** 651,661 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.9f, -1.6f, 6.25f);
+  			break;
+  		case 19:
+! 			WeaponType[0] = 2;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -0.75f, 0.0f);
+! 			WeaponType[1] = 2;
+  			WeaponLocation[1] = VECTOR3D(4.7f, -0.4f, -5.0f);
+! 			WeaponType[2] = 2;
+  			WeaponLocation[2] = VECTOR3D(-4.7f, -0.4f, -5.0f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(6.3f, 0.60f, -8.1f);
+--- 651,661 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.9f, -1.6f, 6.25f);
+  			break;
+  		case 19:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, -0.75f, 0.0f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(4.7f, -0.4f, -5.0f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(-4.7f, -0.4f, -5.0f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(6.3f, 0.60f, -8.1f);
+***************
+*** 667,679 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.45f, 0.05f, 5.0f);
+  			break;
+  		case 20:
+! 			WeaponType[0] = 3;
+  			WeaponLocation[0] = VECTOR3D(0.80f, -0.8f, -2.3f);
+! 			WeaponType[1] = 3;
+  			WeaponLocation[1] = VECTOR3D(-0.80f, -0.8f, -2.3f);
+! 			WeaponType[2] = 4;
+  			WeaponLocation[2] = VECTOR3D(3.9f, -1.25f, -3.2f);
+! 			WeaponType[3] = 4;
+  			WeaponLocation[3] = VECTOR3D(-3.9f, -1.25f, -3.2f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.45f, -0.3f, -7.3f);
+--- 667,679 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.45f, 0.05f, 5.0f);
+  			break;
+  		case 20:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.80f, -0.8f, -2.3f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-0.80f, -0.8f, -2.3f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(3.9f, -1.25f, -3.2f);
+! 			WeaponType[3] = 5;
+  			WeaponLocation[3] = VECTOR3D(-3.9f, -1.25f, -3.2f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(3.45f, -0.3f, -7.3f);
+***************
+*** 685,695 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, -0.4f, 1.45f);
+  			break;
+  		case 21:
+! 			WeaponType[0] = 2;
+  			WeaponLocation[0] = VECTOR3D(2.05f, -0.22f, -1.2f);
+! 			WeaponType[1] = 2;
+  			WeaponLocation[1] = VECTOR3D(-2.05f, -0.22f, -1.2f);
+! 			WeaponType[2] = 2;
+  			WeaponLocation[2] = VECTOR3D(0.0f, -0.5f, 0.5f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.7f, 0.0f, -4.4f);
+--- 685,695 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, -0.4f, 1.45f);
+  			break;
+  		case 21:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(2.05f, -0.22f, -1.2f);
+! 			WeaponType[1] = 5;
+  			WeaponLocation[1] = VECTOR3D(-2.05f, -0.22f, -1.2f);
+! 			WeaponType[2] = 5;
+  			WeaponLocation[2] = VECTOR3D(0.0f, -0.5f, 0.5f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.7f, 0.0f, -4.4f);
+***************
+*** 699,705 ****
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, -0.4f, 3.0f);
+  			break;
+  		case 22:
+! 			WeaponType[0] = 3;
+  			WeaponLocation[0] = VECTOR3D(0.0f, 0.05f, 3.6f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.0f, 0.3f, -5.2f);
+--- 699,705 ----
+  			EngineRightLocation[0] = VECTOR3D(-1.0f, -0.4f, 3.0f);
+  			break;
+  		case 22:
+! 			WeaponType[0] = 5;
+  			WeaponLocation[0] = VECTOR3D(0.0f, 0.05f, 3.6f);
+  			// двигатели, маршевые
+  			EngineLocation[0] = VECTOR3D(0.0f, 0.3f, -5.2f);
