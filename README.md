@@ -10,6 +10,12 @@ Patch to cheat at AstroMenace:
 ## Using the patch
 
 
+```
+git clone https://github.com/richelbilderbeek/AstroMenaceCheat.git
+unzip AstroMenace.zip
+```
+
+
 ## Creating the patch
 
 Obtained code at 2014-08-24:
