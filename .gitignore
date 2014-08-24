@@ -9,3 +9,4 @@ Makefile
 cmake_install.cmake
 CMakeFiles/
 AstroMenace
+gamedata.vfs
