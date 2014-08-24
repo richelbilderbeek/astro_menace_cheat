@@ -9,11 +9,17 @@ Patch to cheat at AstroMenace:
 
 ## Using the patch
 
+Using the script patch.sh:
 
 ```
-git clone https://github.com/richelbilderbeek/AstroMenaceCheat.git
-unzip AstroMenace.zip
+./patch.sh
 ```
+
+This
+* downloads the code
+* applies the patch
+* builds the code
+* starts the game
 
 
 ## Creating the patch
