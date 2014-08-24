@@ -1,6 +1,11 @@
 # AstroMenace cheat
 
-Patch to cheat at AstroMenace.
+Patch to cheat at AstroMenace:
+ * All weapons, equipment, ships cost $1
+ * All ships have level 5 weapon slots only
+
+![Screenshot](GameAstroMenaceCheated.png)
+
 
 ## Using the patch
 
