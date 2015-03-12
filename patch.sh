@@ -1,6 +1,6 @@
 
 
-if [ d AstroMenaceSource ]
+if [ ! -d AstroMenaceSource ]
 then
   svn checkout http://svn.code.sf.net/p/openastromenace/code/ .
 fi
