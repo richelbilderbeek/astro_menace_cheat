@@ -102,14 +102,17 @@ int GetSystemCost(int Num)
   const int start_index{find_function_definition_first_line(function_name, text)};
   text[start_index] = "int " + function_name + "(int)";
   const int from{start_index + 2};
-  const int to{find_function_definition_last_line(function_name, text) - 1};
+  const int end_index{find_function_definition_last_line(function_name, text)};
+  const int to{end_index - 1};
   assert(from < to);
+  assert(from < end_index);
+  assert(to < end_index);
 
   for (int i{from}; i!=to; ++i)
   {
     text[i] = "";
   }
-
+  text[to] = "return 0;";
   return text;
 }
 
