@@ -24,8 +24,10 @@ then
   exit
 fi
 
-qmake patch.pro || exit 42
-make debug || exit 42
+g++ main.cpp -o astromenace_patch_code
+
+# qmake patch.pro || exit 42
+# make debug || exit 42
 ./astromenace_patch_code \
   astromenace/src/menu/menu_workshop_workshop.cpp \
   astromenace/src/menu/menu_workshop_shipyard.cpp \
