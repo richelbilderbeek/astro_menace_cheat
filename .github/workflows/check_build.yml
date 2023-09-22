@@ -20,4 +20,4 @@ jobs:
 
       - run: ./install_prerequisites.sh
 
-      - run: ./patch
+      - run: ./patch.sh
