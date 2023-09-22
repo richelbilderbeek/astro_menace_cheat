@@ -44,10 +44,13 @@ std::vector<std::string> to_vector(const std::string& filename)
   return v;
 }
 
-int find_function_definition_first_line(const std::vector<std::string>& text)
+int find_function_definition_first_line(
+  const std::string& function_name,
+  const std::vector<std::string>& text
+)
 {
   const int sz = text.size();
-  const std::string hit{"int GetSystemCost(int Num)"};
+  const std::string hit{"int " + function_name + "(int"};
   for (int i{0}; i != sz; ++i)
   {
     if (text[i].substr(0, hit.size()) == hit)
@@ -59,11 +62,14 @@ int find_function_definition_first_line(const std::vector<std::string>& text)
   return -1;
 }
 
-int find_function_definition_last_line(const std::vector<std::string>& text)
+int find_function_definition_last_line(
+  const std::string& function_name,
+  const std::vector<std::string>& text
+)
 {
   const int sz = text.size();
   const std::string hit{"}"};
-  const int start_index{find_function_definition_first_line(text)};
+  const int start_index{find_function_definition_first_line(function_name, text)};
   for (int i{start_index}; i != sz; ++i)
   {
     if (text[i].substr(0, hit.size()) == hit)
@@ -75,7 +81,11 @@ int find_function_definition_last_line(const std::vector<std::string>& text)
   return -1;
 }
 
-std::vector<std::string> patch_text(std::vector<std::string> text)
+/// Simplify a function
+std::vector<std::string> simplify_function(
+  const std::string& function_name,
+  std::vector<std::string> text
+)
 {
 /*
 int GetSystemCost(int Num)
@@ -86,10 +96,12 @@ int GetSystemCost(int Num)
 }
 */
 
-  assert(find_function_definition_first_line(text) != -1);
-  assert(find_function_definition_last_line(text) != -1);
-  const int from{find_function_definition_first_line(text) + 2};
-  const int to{find_function_definition_last_line(text) - 1};
+  assert(find_function_definition_first_line(function_name, text) != -1);
+  assert(find_function_definition_last_line(function_name, text) != -1);
+  const int start_index{find_function_definition_first_line(function_name, text)};
+  text[start_index] = "int " + function_name + "(int)";
+  const int from{start_index + 2};
+  const int to{find_function_definition_last_line(function_name, text) - 1};
   assert(from < to);
 
   for (int i{from}; i!=to; ++i)
@@ -100,14 +112,15 @@ int GetSystemCost(int Num)
   return text;
 }
 
-
-
+// int GetWorkshopShipCost(int Num)
+// int GetWeaponBaseCost(int Num)
 int main(int argc, char* argv[])
 {
   std::string filename{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_workshop.cpp"};
-  if (argc == 2) filename = std::string(argv[1]);
+  if (argc == 4) filename = std::string(argv[1]);
+  simplify_file(filename, "GetSystemCost");
+
   const auto text{to_vector(filename)};
-  const auto new_text{patch_text(text)};
-  assert(text != new_text);
+  const auto new_text{simplify_function(text)};
   save_container(new_text, filename);
 }
