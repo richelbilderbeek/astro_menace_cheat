@@ -55,6 +55,7 @@ int find_function_definition_first_line(
   {
     if (text[i].substr(0, hit.size()) == hit)
     {
+      if (text[i].find(';') != std::string::npos) continue;
       return i;
     }
   }
@@ -112,15 +113,31 @@ int GetSystemCost(int Num)
   return text;
 }
 
-// int GetWorkshopShipCost(int Num)
-// int GetWeaponBaseCost(int Num)
+void patch_file(
+  const std::filesystem::path& filename,
+  const std::string& function_name
+)
+{
+  const auto text{to_vector(filename)};
+  const auto new_text{simplify_function(function_name, text)};
+  save_container(new_text, filename);
+}
+
 int main(int argc, char* argv[])
 {
-  std::string filename{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_workshop.cpp"};
-  if (argc == 4) filename = std::string(argv[1]);
-  simplify_file(filename, "GetSystemCost");
-
-  const auto text{to_vector(filename)};
-  const auto new_text{simplify_function(text)};
-  save_container(new_text, filename);
+  std::filesystem::path workshop_path{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_workshop.cpp"};
+  std::filesystem::path shipyard_path{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_shipyard.cpp"};
+  std::filesystem::path weaponry_path{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_weaponry.cpp"};
+  const std::string workshop_function_name{"GetSystemCost"};
+  const std::string shipyard_function_name{"GetWorkshopShipCost"};
+  const std::string weaponry_function_name{"GetWeaponBaseCost"};
+  if (argc == 4)
+  {
+    workshop_path = std::string(argv[1]);
+    shipyard_path = std::string(argv[2]);
+    weaponry_path = std::string(argv[3]);
+  }
+  patch_file(workshop_path, workshop_function_name);
+  patch_file(shipyard_path, shipyard_function_name);
+  patch_file(weaponry_path, weaponry_function_name);
 }
