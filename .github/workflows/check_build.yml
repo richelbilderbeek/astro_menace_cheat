@@ -1,0 +1,23 @@
+# Check if the build works
+name: Check build
+
+on:
+  push:
+  pull_request:
+  schedule:
+  - cron: "0 0 1 * *"
+
+
+jobs:
+  check_build:
+
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - run: ./install_prerequisites.sh
+
+      - run: ./patch
