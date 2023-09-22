@@ -28,5 +28,5 @@ cd astromenace || exit 42
 
 cmake ./
 make
-./AstroMenace --pack --rawdata=./RAW_VFS_DATA
-./AstroMenace
+./astromenace --pack --rawdata=./RAW_VFS_DATA
+./astromenace
