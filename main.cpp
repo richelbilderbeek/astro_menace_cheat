@@ -128,9 +128,9 @@ void patch_file(
 
 int main(int argc, char* argv[])
 {
-  std::filesystem::path workshop_path{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_workshop.cpp"};
-  std::filesystem::path shipyard_path{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_shipyard.cpp"};
-  std::filesystem::path weaponry_path{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_weaponry.cpp"};
+  std::filesystem::path workshop_path{"../astro_menace_cheat/astromenace/src/menu/menu_workshop_workshop.cpp"};
+  std::filesystem::path shipyard_path{"../astro_menace_cheat/astromenace/src/menu/menu_workshop_shipyard.cpp"};
+  std::filesystem::path weaponry_path{"../astro_menace_cheat/astromenace/src/menu/menu_workshop_weaponry.cpp"};
   const std::string workshop_function_name{"GetSystemCost"};
   const std::string shipyard_function_name{"GetWorkshopShipCost"};
   const std::string weaponry_function_name{"GetWeaponBaseCost"};
