@@ -26,5 +26,9 @@ This:
 
  * downloads the code
  * applies the patch
- * builds the code
- * starts the game
+
+To build and run the game:
+
+```
+./build_astro_menace.sh
+```
