@@ -100,9 +100,10 @@ int GetSystemCost(int Num)
 
 
 
-int main()
+int main(int argc, char* argv[])
 {
-  const std::string filename{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_workshop.cpp"};
+  std::string filename{"../AstroMenaceCheat/astromenace/src/menu/menu_workshop_workshop.cpp"};
+  if (argc == 2) filename = std::string(argv[1]);
   const auto text{to_vector(filename)};
   const auto new_text{patch_text(text)};
   assert(text != new_text);

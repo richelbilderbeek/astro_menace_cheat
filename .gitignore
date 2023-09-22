@@ -13,3 +13,8 @@ gamedata.vfs
 astromenace/
 build-patch-Desktop-Debug/
 patch.pro.user
+.qmake.stash
+astromenace_patch_code
+*.o
+Makefile.Debug
+Makefile.Release
