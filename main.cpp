@@ -63,7 +63,8 @@ int find_function_definition_last_line(const std::vector<std::string>& text)
 {
   const int sz = text.size();
   const std::string hit{"}"};
-  for (int i{0}; i != sz; ++i)
+  const int start_index{find_function_definition_first_line(text)};
+  for (int i{start_index}; i != sz; ++i)
   {
     if (text[i].substr(0, hit.size()) == hit)
     {
@@ -89,6 +90,7 @@ int GetSystemCost(int Num)
   assert(find_function_definition_last_line(text) != -1);
   const int from{find_function_definition_first_line(text) + 2};
   const int to{find_function_definition_last_line(text) - 1};
+  assert(from < to);
 
   for (int i{from}; i!=to; ++i)
   {
