@@ -7,7 +7,7 @@ A patch to cheat at [AstroMenace](https://github.com/viewizard/astromenace):
 - All weapons, equipment and ships cost $1
 - All ships have level 5 weapon slots only
 
-See [the README](https://github.com/richelbilderbeek/AstroMenaceCheat#readme) for how to apply the patch and build the game.
+See [the README](https://github.com/richelbilderbeek/astro_menace_cheat#readme) for how to apply the patch and build the game.
 
 ## Screenshots
 
@@ -15,4 +15,4 @@ See [the README](https://github.com/richelbilderbeek/AstroMenaceCheat#readme) fo
 
 ## Links
 
-- [Source code](https://github.com/richelbilderbeek/AstroMenaceCheat)
+- [Source code](https://github.com/richelbilderbeek/astro_menace_cheat)

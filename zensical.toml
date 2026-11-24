@@ -1,7 +1,7 @@
 [project]
 site_name = "AstroMenace cheat"
-site_url = "https://richelbilderbeek.github.io/AstroMenaceCheat/"
-repo_url = "https://github.com/richelbilderbeek/AstroMenaceCheat"
+site_url = "https://richelbilderbeek.github.io/astro_menace_cheat/"
+repo_url = "https://github.com/richelbilderbeek/astro_menace_cheat"
 edit_uri = "blob/master/docs/"
 
 nav = [
